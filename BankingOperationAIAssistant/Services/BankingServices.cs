@@ -40,7 +40,7 @@ namespace BankingOperationAIAssistant.Services
         }
 
         /// <summary>Returns an account balance; null indicates that the account was not found.</summary>
-        public decimal? GetAccountBalace(int accountid)
+        public decimal? GetAccountBalance(int accountid)
         {
             foreach (var account in Accounts)
             {
