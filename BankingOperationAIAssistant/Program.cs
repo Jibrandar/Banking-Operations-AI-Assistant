@@ -26,7 +26,7 @@ internal class Program
         {
             Tools = [
                 AIFunctionFactory.Create(service.GetCustomerById),
-                AIFunctionFactory.Create(service.GetAccountBalace),
+                AIFunctionFactory.Create(service.GetAccountBalance),
                 AIFunctionFactory.Create(service.FindAccountOwner)
 
                     ]
